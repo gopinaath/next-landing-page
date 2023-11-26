@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextlandingpage-dev-165745-authRole",
+      "UnauthRoleArn": "arn:aws:iam::098017142095:role/amplify-nextlandingpage-dev-165745-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::098017142095:role/amplify-nextlandingpage-dev-165745-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-nextlandingpage-dev-165745-deployment",
+      "UnauthRoleName": "amplify-nextlandingpage-dev-165745-unauthRole",
+      "StackName": "amplify-nextlandingpage-dev-165745",
+      "StackId": "arn:aws:cloudformation:us-west-2:098017142095:stack/amplify-nextlandingpage-dev-165745/d035b360-8bf6-11ee-9235-02194773404b",
+      "AmplifyAppId": "dvc2vbrrzml04"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dvc2vbrrzml04",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}
