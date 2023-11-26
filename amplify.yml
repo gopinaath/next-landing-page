@@ -7,7 +7,7 @@ frontend:
     commands:
       - npm run build --verbose
   artifacts:
-    baseDirectory:  .next
+    baseDirectory:  build
     files:
       - '**/*'
   
