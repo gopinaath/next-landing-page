@@ -2,13 +2,12 @@ version: 1
 frontend:
   preBuild:
     commands:
-      - npm install
+      - npm ci
   build:
     commands:
       - npm run build
   artifacts:
-    baseDirectory: 
-      .next
+    baseDirectory:  .next
     files:
       - '**/*'
   
