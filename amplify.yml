@@ -3,8 +3,10 @@ frontend:
   preBuild:
     commands:
       - npm ci --verbose
+      - ls -l
   build:
     commands:
+      - ls -l
       - npm run build --verbose
   artifacts:
     baseDirectory:  build
