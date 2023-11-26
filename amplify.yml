@@ -9,6 +9,6 @@ frontend:
       - ls -l
       - npm run build --verbose
   artifacts:
-    baseDirectory:  build
+    baseDirectory:  .next
     files:
       - '**/*'
