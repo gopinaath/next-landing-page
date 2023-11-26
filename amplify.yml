@@ -1,14 +1,16 @@
 version: 1
 frontend:
-  preBuild:
-    commands:
-      - npm ci --verbose
-      - ls -l
-  build:
-    commands:
-      - ls -l
-      - npm run build --verbose
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build
   artifacts:
-    baseDirectory:  .next
+    baseDirectory: .next
     files:
       - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
